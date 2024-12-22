@@ -1,0 +1,176 @@
+
+*
+{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	list-style:none;
+	font-family:sans-serif;
+}
+body
+{
+overflow-x:hidden;
+}
+header
+{
+	display:flex;
+	box-shadow: 0px 2px 10px 0px #ccc;
+}
+.headerleft
+{
+display:flex;
+flex-basis:50%;
+}
+.headerleft figure
+{
+padding:20px 40px;
+}
+.headeright
+{
+flex-basis:45%;
+display:flex;
+}
+.headerleft ul
+{
+display:flex;
+align-items:center;
+gap:30px;
+}
+.headerleft ul li a
+{
+font-size:14px;
+color:black;
+font-weight:bold;
+text-transform:uppercase;
+}
+.headerleft ul li a:hover
+{
+color:red;
+}
+.headerleft sup
+{
+font-size:12px;
+color:red;
+}
+.headeright form
+{
+flex-basis:70%;
+display:flex;
+background:#f5f5f6;
+margin: 20px;
+
+}
+.headeright form button
+{
+flex-basis:10%;
+background:transparent;
+border:none;
+}
+.headeright form input
+{
+flex-basis:90%;
+background:transparent;
+border:none;
+border-left:2px solid #fff;
+padding:8px 0px;
+}
+.headeright profile
+{
+flex-basis:30%;
+}
+.profile ul
+{
+display:flex;
+}
+.profile ul li
+{
+display:flex;
+flex-direction:column;
+align-items:center;
+padding:30px 5px;
+}
+.profile ul li i
+{
+font-size:14px;
+}
+.profile ul li b
+{
+font-size:14px;
+}
+#banner
+{
+width:80%;
+margin:auto;
+margin-top:30px;
+}
+#banner2
+{
+width:90%;
+margin:auto;
+margin-top:20px;
+}
+#banner3
+{
+width:90%;
+margin:auto;
+}
+#banner3 h3
+{
+font-size:40px;
+text-transform:capitalize ;
+text-align:center;
+margin-top:50px;
+margin-bottom:40px;
+transition:2s;
+}
+#banner3 h3:hover
+{
+color:red;
+}
+#fullimage
+{
+width:100%;
+margin-top:10px;
+}
+#fullimage2
+{
+width:100%;
+}
+#fullimage2 figure
+{
+display:flex;
+margin-bottom:30px;
+}
+#imagecontent
+{
+width:100%;
+}
+#imagecontent h3
+{
+font-size:40px;
+text-transform:capitalize;
+text-align:center;
+margin-bottom:80px;
+transition:2s;
+}
+#imagecontent h3:hover
+{
+color:red;
+}
+#imagecontent figure
+{
+	display:flex;
+	justify-content:space-evenly;
+	margin-bottom:30px;
+}
+.imp2
+{
+text-align:center;
+margin-bottom:20px;
+}
+
+#footerimage
+{
+width:90%;
+margin:auto;
+}
